@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class JoguinhoAdivinhacao {
     public static void main(String[] args) {
             System.out.printf("%nAdivinhe o Número! Está entre 0 e 100. Você tera 5 Chances. %n%n");
-
+ 
         Scanner read = new Scanner(System.in);
         int number = new Random().nextInt(100);
 
